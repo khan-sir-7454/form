@@ -45,22 +45,7 @@ const ThankYou = ({referCode, setThankyouPopup}) => {
             }}
           >
         <div style={{display:'flex', alignItems:'center', gap: '10px', justifyContent:'space-between', marginBottom:'10px'}}>
-                <p style={{ fontSize: '30px' }}>Thank You!</p>
-                <p onClick={() => setThankyouPopup(false)} style={{
-                margin:0,
-                width: '30px',
-                height: '30px',
-                padding: '10px',
-                backgroundColor:'tomato',
-                borderRadius:'50%',
-                display:'flex',
-                justifyContent:'center',
-                alignItems: 'center',
-                color:'white',
-                fontWeight:'bold',
-                fontSize:'14px',
-                cursor:'pointer'
-                }}>X</p>
+                <p style={{ fontSize: '30px', textAlign: 'center' }}>Thank You!</p>
         </div>
       <p style={{ fontWeight: 'bold', marginBottom:'10px' }}>
         Your Refer Code is{' '}
@@ -83,7 +68,7 @@ const ThankYou = ({referCode, setThankyouPopup}) => {
       <span style={{ color: 'gray' }}>
         Note: Copy or Take Screenshot of your refer code for further reference.
       </span>
-      <div style={{textAlign:'center', marginTop:'10px', color:'blue', textDecoration:'underline'}}><Link href={'https://tech.hamzaconsultancy.com'}>Go Back To Home</Link></div>
+      <div style={{textAlign:'center', marginTop:'10px', color:'blue', textDecoration:'underline'}}><Link href={'https://novamedinnovations.com'}>Go Back To Home</Link></div>
     </div></div>
   );
 }
